@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./img/logo.png" />
+    <title>Spotify - Web player! Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="navoption" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="navoption">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="option">
+            <div class="liboption navoption">
+              <img src="./img/library_icon.png" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="libbox">
+            <div class="box1">Create your first playlist</div>
+            <div class="box2">It's easy, we'll help you</div>
+            <button class="badge">Create playlist</button>
+          </div>
+          <div class="libbox1">
+            <div class="box1">Let's find some podcasts to follow</div>
+            <div class="box2">We'll keep you updated on new episodes</div>
+            <button class="badge">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+      <div class="maincontent">
+        <div class="stickynav">
+          <div class="stickynavicon">
+            <img src="./img/backward_icon (1).png" alt="" />
+            <img src="./img/forward_icon.png" class="hide" alt="" />
+          </div>
+          <div class="stickynavopt">
+            <button class="badge navitem hide">Explore Premium</button>
+            <button class="badge navitem one">
+              <i class="fa-regular fa-circle-down"></i> Install App
+            </button>
+            <i class="fa-regular fa-user navitem this"></i>
+          </div>
+        </div>
+        <div class="cards">
+          <h2>Recently played</h2>
+          <div class="cardcontainer">
+            <div class="card">
+              <img src="./img/card1img.jpeg" alt="" />
+              <p class="cardtitle">Top 50 - Global</p>
+              <p class="cardinfo">
+                Your daily updates of the most played tracks...
+              </p>
+            </div>
+          </div>
+          <h2>Trending now</h2>
+          <div class="trending">
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card2img.jpeg" alt="" />
+                <p class="cardtitle">Mahiye Jinna Sohna</p>
+                <p class="cardinfo">
+                  Hindi Love Song...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card3img.jpeg" alt="" />
+                <p class="cardtitle">Mere Paas Tum Ho</p>
+                <p class="cardinfo">
+                  Hindi Love Song...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card4img.jpeg" alt="" />
+                <p class="cardtitle">Top 50 - South Indian</p>
+                <p class="cardinfo">
+                  The most played tracks...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card5img.jpeg" alt="" />
+                <p class="cardtitle">Top Songs Global</p>
+                <p class="cardinfo">
+                  Weekly Music Charts
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card6img.jpeg" alt="" />
+                <p class="cardtitle">Top Songs in India</p>
+                <p class="cardinfo">
+                  Weekly Music Charts
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card3img.jpeg" alt="" />
+                <p class="cardtitle">Mere Paas Tum Ho</p>
+                <p class="cardinfo">
+                  Hindi Love Song...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card1img.jpeg" alt="" />
+                <p class="cardtitle">Top 50 - Global</p>
+                <p class="cardinfo">
+                  Your daily updates of the most played tracks...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card4img.jpeg" alt="" />
+                <p class="cardtitle">Top 50 - South Indian</p>
+                <p class="cardinfo">
+                  The most played tracks...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card2img.jpeg" alt="" />
+                <p class="cardtitle">Mahiye Jinna Sohna</p>
+                <p class="cardinfo">
+                  Hindi Love Song...
+                </p>
+              </div>
+            </div>
+          </div>
+          <h2>New release</h2>
+          <div class="release">
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card4img.jpeg" alt="" />
+                <p class="cardtitle">Nukkavaleaa</p>
+                <p class="cardinfo">
+                  Most played
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card2img.jpeg" alt="" />
+                <p class="cardtitle">Mahiye Jinna Sohna</p>
+                <p class="cardinfo">
+                  New release
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card3img.jpeg" alt="" />
+                <p class="cardtitle">Mere Paas Tum Ho</p>
+                <p class="cardinfo">
+                  Most played
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card5img.jpeg" alt="" />
+                <p class="cardtitle">Top Songs Global</p>
+                <p class="cardinfo">
+                  The most played tracks...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card1img.jpeg" alt="" />
+                <p class="cardtitle">Top 50 - Global</p>
+                <p class="cardinfo">
+                  Your daily updates of the most played tracks...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card6img.jpeg" alt="" />
+                <p class="cardtitle">Top Songs India</p>
+                <p class="cardinfo">
+                  Most played in India
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card3img.jpeg" alt="" />
+                <p class="cardtitle">Top 50 - Global</p>
+                <p class="cardinfo">
+                  Your daily updates of the most played tracks...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card2img.jpeg" alt="" />
+                <p class="cardtitle">Top 50 - Global</p>
+                <p class="cardinfo">
+                  Your daily updates of the most played tracks...
+                </p>
+              </div>
+            </div>
+            <div class="cardcontainer">
+              <div class="card">
+                <img src="./img/card4img.jpeg" alt="" />
+                <p class="cardtitle">Top 50 - Global</p>
+                <p class="cardinfo">
+                  Your daily updates of the most played tracks...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="footer">
+            <hr />
+          </div>
+        </footer>
+      </div>
+
+      <div class="musicplayer">
+        <div class="music">
+          <img src="./img/card3img.jpeg" alt="" />
+          <div class="m1">
+            <p class="songtitle">Daylight</p>
+            <p class="songinfo" style="opacity: 0.7;">Greybach,Ketty</p>
+          </div>
+          <div class="m2">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-brands fa-creative-commons-share"></i>
+          </div> 
+        </div>
+
+        <div class="player">
+            <div class="playercontrol">
+                <img src="./img/player_icon1.png" class="playercontrolicon">
+                <img src="./img/player_icon2.png" class="playercontrolicon">
+                <div class="big" >
+                    <img src="./img/player_icon3.png" class="playercontrolicon" style="height:2rem;">
+                </div>
+                
+                <img src="./img/player_icon4.png" class="playercontrolicon">
+                <img src="./img/player_icon5.png" class="playercontrolicon">
+            </div>
+            <div class="playbar">
+                <span class="currtime">00:00</span>
+                <input type="range" min="0" max="100" step="1" class="pb">
+                <span class="currtime">03:33</span>
+            </div>
+        </div>
+
+        <div class="control">
+            <i class="fa-regular fa-file-audio controls" ></i>
+            <i class="fa-solid fa-microphone controls" ></i>
+            <i class="fa-solid fa-layer-group controls" ></i>
+            <i class="fa-solid fa-mobile-screen-button controls" ></i>
+            <i class="fa-solid fa-volume-high controls" ></i>
+            <input type="range" min="0" max="100" step="1" class="pb" style="opacity: 1;">
+            <i class="fa-solid fa-up-right-and-down-left-from-center controls" ></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
